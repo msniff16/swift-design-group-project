@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enroll the whole farm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKu-Ws-GrX">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate FieldView™ Drive Starter Package ($249)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKu-Ws-GrX">
                     <rect key="frame" x="12" y="31" width="181" height="24"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -18,21 +18,192 @@
                     <variation key="widthClass=regular" fixedFrame="YES">
                         <rect key="frame" x="19" y="28" width="181" height="24"/>
                     </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="28" width="660" height="24"/>
+                    </variation>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VP4-x4-oRd">
                     <rect key="frame" x="8" y="64" width="726" height="138"/>
-                    <mutableString key="text">Take advantage of Whole Farm Offer to experience Climate FieldView on every acre of your farmer’s operation. The Climate FieldView platform helps farmers optimize resources and maximize yield by using real-time and historical crop and weather data. Climate FieldView Pro delivers customized insights that help farmers make important agronomic decisions with confidence.
-
-Whole Farm Offer customers will be able to access all tiers of Climate FieldView: Prime, Plus &amp; Pro. Purchase the Climate FieldView Drive Starter Package ($249) to enable data connectivity with your equipment.</mutableString>
+                    <string key="text">With Climate FieldView Drive Starter Package, farmers can easily transfer data created on the field from their equipment into their Climate FieldView account and use their data to make actionable decisions. This package is aimed at the Climate FieldView Pro farmer who does not own Precision Planting® 20/20 SeedSense. It includes 1 Climate FieldView Drive and iPad® mounting kit.</string>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     <variation key="widthClass=regular" fixedFrame="YES">
                         <rect key="frame" x="15" y="61" width="726" height="138"/>
                     </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="15" y="61" width="726" height="88"/>
+                    </variation>
                 </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jjf-FP-AB2">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="155" width="800" height="1"/>
+                    </variation>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Climate FieldView™ Plus ($499)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOa-HM-hat">
+                    <rect key="frame" x="12" y="31" width="181" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="28" width="181" height="24"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="180" width="660" height="24"/>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fS1-o2-xPN">
+                    <rect key="frame" x="8" y="64" width="726" height="138"/>
+                    <string key="text">With Climate FieldView Drive Starter Package, farmers can easily transfer data created on the field from their equipment into their Climate FieldView account and use their data to make actionable decisions. This package is aimed at the Climate FieldView Pro farmer who does not own Precision Planting® 20/20 SeedSense. It includes 1 Climate FieldView Drive and iPad® mounting kit.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="15" y="61" width="726" height="138"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="140" y="212" width="490" height="114"/>
+                    </variation>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4b-lb-8ny">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="334" width="800" height="1"/>
+                    </variation>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Climate FieldView™ Drive (Limited Availability) ($249)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DfN-Ac-8iI">
+                    <rect key="frame" x="12" y="31" width="181" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="28" width="181" height="24"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="348" width="660" height="24"/>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ca-YH-uv3">
+                    <rect key="frame" x="8" y="64" width="726" height="138"/>
+                    <string key="text">With Climate FieldView Drive Starter Package, farmers can easily transfer data created on the field from their equipment into their Climate FieldView account and use their data to make actionable decisions. This package is aimed at the Climate FieldView Pro farmer who does not own Precision Planting® 20/20 SeedSense. It includes 1 Climate FieldView Drive and iPad® mounting kit.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="15" y="61" width="726" height="138"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="140" y="386" width="490" height="122"/>
+                    </variation>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-Yy-Mce">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="508" width="800" height="1"/>
+                    </variation>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPad Mounting Kit ($199)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiT-pr-wBk">
+                    <rect key="frame" x="12" y="31" width="181" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="28" width="181" height="24"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="534" width="660" height="24"/>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvv-Nq-73R">
+                    <rect key="frame" x="8" y="64" width="726" height="138"/>
+                    <string key="text">With Climate FieldView Drive Starter Package, farmers can easily transfer data created on the field from their equipment into their Climate FieldView account and use their data to make actionable decisions. This package is aimed at the Climate FieldView Pro farmer who does not own Precision Planting® 20/20 SeedSense. It includes 1 Climate FieldView Drive and iPad® mounting kit.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="15" y="61" width="726" height="138"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="15" y="567" width="726" height="88"/>
+                    </variation>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePH-OU-5Sa">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="661" width="800" height="1"/>
+                    </variation>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fieldViewPlus" translatesAutoresizingMaskIntoConstraints="NO" id="Hkv-vJ-UBz">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="224" width="106" height="83"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fieldViewDrive" translatesAutoresizingMaskIntoConstraints="NO" id="rQZ-VS-7ZI">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="19" y="399" width="106" height="83"/>
+                    </variation>
+                </imageView>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLG-eX-Ap9">
+                    <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="692" y="250" width="51" height="31"/>
+                    </variation>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD TO CART" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Heg-J6-Icl">
+                    <rect key="frame" x="574" y="482" width="109" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="644" y="217" width="97" height="18"/>
+                    </variation>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Jjf-FP-AB2"/>
+                    <exclude reference="OOa-HM-hat"/>
+                    <exclude reference="fS1-o2-xPN"/>
+                    <exclude reference="z4b-lb-8ny"/>
+                    <exclude reference="DfN-Ac-8iI"/>
+                    <exclude reference="5ca-YH-uv3"/>
+                    <exclude reference="Tqj-Yy-Mce"/>
+                    <exclude reference="KiT-pr-wBk"/>
+                    <exclude reference="tvv-Nq-73R"/>
+                    <exclude reference="ePH-OU-5Sa"/>
+                    <exclude reference="Hkv-vJ-UBz"/>
+                    <exclude reference="rQZ-VS-7ZI"/>
+                    <exclude reference="fLG-eX-Ap9"/>
+                    <exclude reference="Heg-J6-Icl"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="subviews">
+                    <include reference="Jjf-FP-AB2"/>
+                    <include reference="OOa-HM-hat"/>
+                    <include reference="fS1-o2-xPN"/>
+                    <include reference="z4b-lb-8ny"/>
+                    <include reference="DfN-Ac-8iI"/>
+                    <include reference="5ca-YH-uv3"/>
+                    <include reference="Tqj-Yy-Mce"/>
+                    <include reference="KiT-pr-wBk"/>
+                    <include reference="tvv-Nq-73R"/>
+                    <include reference="ePH-OU-5Sa"/>
+                    <include reference="Hkv-vJ-UBz"/>
+                    <include reference="rQZ-VS-7ZI"/>
+                    <include reference="fLG-eX-Ap9"/>
+                    <include reference="Heg-J6-Icl"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="540" y="491"/>
         </view>
     </objects>
+    <resources>
+        <image name="fieldViewDrive" width="2020" height="1522"/>
+        <image name="fieldViewPlus" width="1852" height="1524"/>
+    </resources>
 </document>
